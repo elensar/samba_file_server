@@ -25,5 +25,7 @@ find /media/usbstick/ -type d -exec chmod 777 {} \;
 
 To unmount the external storage, just enter `sudo umount /media/usbstick` in the Terminal.
 
-References:  
-- https://askubuntu.com/questions/285539/detect-and-mount-devices  
+
+## References
+
+- https://askubuntu.com/questions/285539/detect-and-mount-devices

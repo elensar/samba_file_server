@@ -1,4 +1,7 @@
 # Remote access
 
-https://www.raspberrypi.org/documentation/remote-access/ssh/  
-https://www.raspberrypi.org/documentation/remote-access/vnc/  
+
+## References
+
+- https://www.raspberrypi.org/documentation/remote-access/ssh/
+- https://www.raspberrypi.org/documentation/remote-access/vnc/

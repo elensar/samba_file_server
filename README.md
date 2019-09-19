@@ -1,6 +1,6 @@
 # Samba file server
 
-Knowledge base and configuration for using a Samba server on Raspberry Pi 4.
+Knowledge base for installing and configuration of a Samba server on Raspberry Pi 4.
 
 
 ## Installation
@@ -38,7 +38,8 @@ You can find a configuration example under [smb.conf](./smb.conf.md) for a quick
 If you want to use an external storage, you may need to mount the storage manually. You can find a short documentation under [mount-external-storage](./mount-external-storage.md).
 
 
-References:  
+## References
+
 - https://www.raspberrypi.org/magpi/samba-file-server/
 - https://www.raspberrypi.org/magpi/build-a-raspberry-pi-nas/
 - https://tutorials.ubuntu.com/tutorial/install-and-configure-samba

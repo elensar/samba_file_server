@@ -33,11 +33,6 @@ sudo /etc/init.d/smbd restart
 You can find a configuration example under [smb.conf](./smb.conf.md) for a quick start. An explanation of how the configuration works and what options are possible can be found on [smb.conf-explanation](./smb.conf-explanation.md).
 
 
-## Mount storage
-
-If you want to use an external storage, you may need to mount the storage manually. You can find a short documentation under [mount-external-storage](./mount-external-storage.md).
-
-
 ## References
 
 - https://www.raspberrypi.org/magpi/samba-file-server/

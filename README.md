@@ -33,6 +33,17 @@ sudo /etc/init.d/smbd restart
 You can find a configuration example under [smb.conf](./smb.conf.md) for a quick start. An explanation of how the configuration works and what options are possible can be found on [smb.conf-explanation](./smb.conf-explanation.md).
 
 
+## Using external storages
+
+If you want to use an external storage for your Samba server, please make sure that your Raspberry Pi supports the file system.
+
+If you want to use an storage with NTFS as file system you must add the NTFS support on your Pi:  
+`sudo apt-get install ntfs-3g`  
+After that, you have to restart the Pi.
+
+If you use NTFS without support, you may can read the data on the storage over the Pi itself but you can't write and trying to call an folder on the storage over Samba will result in an error.
+
+
 ## References
 
 - https://www.raspberrypi.org/magpi/samba-file-server/
